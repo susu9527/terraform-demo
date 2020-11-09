@@ -8,5 +8,5 @@ main = rule {
     }
 }
 
-hour = 4
+hour = 5
 main = rule { hour >= 0 and hour < 12 }
