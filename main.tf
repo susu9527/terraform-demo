@@ -1,6 +1,7 @@
 provider "alicloud" {
   region = "cn-hangzhou"
 }
+
 data "alicloud_vpcs" "default" {
   is_default = true
 }
